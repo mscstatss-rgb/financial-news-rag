@@ -64,7 +64,8 @@ financial-news-rag/
 
 ```
 
-##Installation
+### Installation
+
 ```text
 git clone <your-repository-url>
 cd financial-news-rag
@@ -75,7 +76,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-##Environment Variables
+### Environment Variables
 
 Create a .env file:
 ```text
@@ -83,7 +84,7 @@ GEMINI_API_KEY=your_api_key
 ```
 Running the Project
 
-##First build the vector database:
+### First build the vector database:
 ```text
 python load_database.py
 ```
