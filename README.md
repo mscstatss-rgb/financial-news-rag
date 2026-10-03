@@ -88,7 +88,7 @@ Running the Project
 ```text
 python load_database.py
 ```
-##Then run the application:
+### Then run the application:
 ```text
 streamlit run app.py
 ```
