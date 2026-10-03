@@ -24,6 +24,7 @@ Semantic Retrieval
 Gemini LLM
       ↓
 Context-grounded Answer
+```text
 
 ## Features
 
