@@ -61,3 +61,33 @@ financial-news-rag/
 ├── requirements.txt
 ├── .env
 └── chroma_db/
+
+```
+
+##Installation
+```text
+git clone <your-repository-url>
+cd financial-news-rag
+
+python -m venv .venv
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+```
+
+##Environment Variables
+
+Create a .env file:
+```text
+GEMINI_API_KEY=your_api_key
+```
+Running the Project
+
+##First build the vector database:
+```text
+python load_database.py
+```
+##Then run the application:
+```text
+streamlit run app.py
+```
