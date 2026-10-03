@@ -8,20 +8,21 @@ This project builds a RAG pipeline that collects financial news articles, proces
 
 ## Architecture
 
+```text
 News RSS Feed
-   ↓
+      ↓
 Article Extraction
-   ↓
+      ↓
 Document Chunking
-   ↓
+      ↓
 BGE-large Embeddings
-   ↓
+      ↓
 ChromaDB
-   ↓
+      ↓
 Semantic Retrieval
-   ↓
+      ↓
 Gemini LLM
-   ↓
+      ↓
 Context-grounded Answer
 
 ## Features
